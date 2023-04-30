@@ -1,0 +1,78 @@
+.App {
+  text-align: -webkit-center;
+  background-color: lightblue;
+}
+
+h1 {
+  background-color: #1A5DC8;
+  margin: unset;
+  padding: 25px;
+  color: white;
+}
+
+.player-panel {
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.player-profile {
+  border-radius: 115px;
+  height: 60px;
+}
+
+.dice-score {
+  display: flex;
+  place-content: center;
+}
+
+.dice {
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.player-wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-rows: repeat(1, 200px);
+  justify-items: center;
+}
+
+.player-score {
+  width: 50%;
+}
+
+.score {
+  padding: 5px;
+  background-color: #a6ace6;
+  border: 1px solid black;
+  width: 60px;
+}
+
+.is-active .score {
+  border: 2px solid rgb(160, 255, 194);
+}
+
+.btn {
+  padding: 10px;
+  margin: 15px;
+  min-width: 50px;
+  background: #1A5DC8;
+  border: 0px solid black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 2px 2px #ffffff;
+}
+
+.btn.btn-roll {
+  background: #16a938;
+}
+
+.btn.btn-new {
+  background: #dfbf2f;
+}
